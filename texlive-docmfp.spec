@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/docmfp
+# catalog-date 2009-09-02 16:56:11 +0200
+# catalog-license lppl
+# catalog-version 1.2d
 Name:		texlive-docmfp
 Version:	1.2d
 Release:	1
@@ -44,6 +50,7 @@ languages.
 #- source
 %doc %{_texmfdistdir}/source/latex/docmfp/docmfp.dtx
 %doc %{_texmfdistdir}/source/latex/docmfp/docmfp.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -54,3 +61,5 @@ languages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

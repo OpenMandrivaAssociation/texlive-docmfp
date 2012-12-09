@@ -50,3 +50,17 @@ languages.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.2d-2
++ Revision: 751006
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.2d-1
++ Revision: 718243
+- texlive-docmfp
+- texlive-docmfp
+- texlive-docmfp
+- texlive-docmfp
+

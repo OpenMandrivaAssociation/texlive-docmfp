@@ -6,7 +6,7 @@
 # catalog-version 1.2d
 Name:		texlive-docmfp
 Version:	1.2d
-Release:	3
+Release:	4
 Summary:	Document non-LaTeX code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/docmfp

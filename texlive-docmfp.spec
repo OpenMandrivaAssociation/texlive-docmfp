@@ -1,6 +1,6 @@
 Name:		texlive-docmfp
 Version:	15878
-Release:	1
+Release:	2
 Summary:	Document non-LaTeX code
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/docmfp

@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Document non-LaTeX code
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/docmfp
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/docmfp
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/docmfp.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/docmfp.doc.r%{version}.tar.xz
